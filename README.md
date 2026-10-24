@@ -102,7 +102,7 @@ My goal is to build strong DevOps skills in Linux, cloud computing, automation, 
 
 **Learning Resource:** https://git-scm.com/book/en/v2
 
-### 4. Scripting and Automation 💻
+### 4. Scripting and Automation 💻(Optional)
 
 **Topics to Learn:**
 - Bash scripting fundamentals
@@ -124,7 +124,7 @@ My goal is to build strong DevOps skills in Linux, cloud computing, automation, 
 - Log file analyzer
 - Automated backup script
 
-### 5. Cloud Computing — AWS ☁️
+### 5. Cloud Computing — AWS/Azure/GCP ☁️
 
 **Topics to Learn:**
 - Cloud computing fundamentals
@@ -190,7 +190,7 @@ My goal is to build strong DevOps skills in Linux, cloud computing, automation, 
 - Pipeline secrets
 - Pipeline troubleshooting
 
-**Tools:** GitHub Actions, Jenkins
+**Tools:** Jenkins/Harness/Azure Devops
 
 **Practice Projects:**
 - Create a GitHub Actions workflow.
@@ -298,7 +298,7 @@ My goal is to build strong DevOps skills in Linux, cloud computing, automation, 
 - Incident investigation
 - Centralized logging
 
-**Tools:** Prometheus, Grafana
+**Tools:** Prometheus, Grafana,Dynotrace
 
 **Practice Projects:**
 - Configure Prometheus to collect metrics.
@@ -335,19 +335,6 @@ My goal is to build strong DevOps skills in Linux, cloud computing, automation, 
 - Implement basic security checks in pipelines.
 
 ---
-
-## 🛠️ Recommended Learning Schedule
-
-| Month | Learning Focus |
-|---|---|
-| Month 1 | Linux, Networking, Git |
-| Month 2 | Bash, Python Basics, AWS Fundamentals |
-| Month 3 | Docker, CI/CD, GitHub Actions |
-| Month 4 | Terraform, Ansible |
-| Month 5 | Kubernetes, Helm |
-| Month 6 | Monitoring, Security, Projects, Interview Preparation |
-
-*This is an estimated schedule. The actual time required depends on your experience and daily study hours.*
 
 ---
 
@@ -507,20 +494,6 @@ Track your progress by changing `[ ]` to `[x]` as you complete each section.
 - [ ] Prepare for DevOps Interviews
 
 ---
-
-## 🌟 My Learning Goals
-
-- Build strong DevOps fundamentals.
-- Practice regularly through hands-on exercises.
-- Document my learning in GitHub.
-- Develop practical automation skills.
-- Build real-world projects.
-- Improve troubleshooting and problem-solving skills.
-- Prepare for a DevOps Engineer role.
-
-## 🤝 Contributions and Feedback
-
-Suggestions, corrections, and learning resources are welcome. Feel free to open an issue or submit a pull request to improve this repository.
 
 ## 📌 Conclusion
 
