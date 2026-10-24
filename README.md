@@ -3,191 +3,529 @@ DevOps Roadmap
 
 <img width="800" height="891" alt="image" src="https://github.com/user-attachments/assets/d3c20cd1-ef06-4fe2-b30b-f91fec67d31f" />
 
-1. Complete DevOps Learning Roadmap
-Phase	What to learn	Recommended tools	Estimated time
-1	Linux fundamentals	Ubuntu, Bash	2–3 weeks
-2	Networking fundamentals	TCP/IP, DNS, HTTP, SSH	1–2 weeks
-3	Git and version control	Git, GitHub	1 week
-4	Scripting	Bash, Python basics	2–3 weeks
-5	CI/CD pipelines	Jenkins, GitHub Actions	2–3 weeks
-6	Containers	Docker, Docker Compose	2 weeks
-7	Cloud computing	AWS or Azure	3–4 weeks
-8	Infrastructure as Code	Terraform	2–3 weeks
-9	Kubernetes	Kubernetes, Helm	3–4 weeks
-10	Monitoring and logging	Prometheus, Grafana	1–2 weeks
-11	Security and DevSecOps	IAM, secrets, vulnerability scanning	1–2 weeks
-12	Projects and interview preparation	Real-world projects	3–4 weeks
 
+# 🚀 DevOps Engineer Roadmap 2026
 
-Estimated total: Around 4–6 months at a consistent pace of 2–3 hours daily. Your timeline will depend on your current technical knowledge and practice.
-2. What to Learn in Each Phase
-Phase 1: Linux and Networking
-Start here, even if you have no IT experience.
+A complete, step-by-step roadmap to learn DevOps from beginner to job-ready level with practical projects, hands-on exercises, and free learning resources.
 
-Linux topics:
-- Basic commands: ls, cd, pwd, cp, mv, rm
-- File permissions: chmod, chown
+## 📌 About This Repository
+
+This repository documents my DevOps learning journey, including essential concepts, tools, practical exercises, and real-world projects.
+
+My goal is to build strong DevOps skills in Linux, cloud computing, automation, CI/CD, containers, infrastructure as code, Kubernetes, and monitoring.
+
+## 🎯 Learning Objectives
+
+- Understand Linux administration and networking fundamentals.
+- Learn Git and GitHub for version control.
+- Automate tasks using Bash and Python.
+- Build CI/CD pipelines.
+- Containerize applications using Docker.
+- Deploy and manage applications on AWS.
+- Automate infrastructure using Terraform.
+- Manage server configurations using Ansible.
+- Orchestrate containers using Kubernetes.
+- Monitor applications and infrastructure.
+- Build real-world DevOps projects.
+
+---
+
+## 🗺️ DevOps Learning Roadmap
+
+### 1. Linux Fundamentals 🐧
+
+**Topics to Learn:**
+- Linux architecture and distributions
+- Basic Linux commands
+- File and directory management
+- File permissions and ownership
 - Users and groups
-- Processes: ps, top, kill
-- Services: systemctl
-- Logs: journalctl
-- SSH and remote server access
+- Process management
+- Package management
+- System services
+- Log management
+- SSH and remote access
 - Bash scripting
-Networking topics:
-- IP addresses and subnets
+
+**Tools:** Ubuntu, Bash
+
+**Practice Tasks:**
+- Create and manage files and directories.
+- Configure file permissions.
+- Create users and groups.
+- Monitor CPU, memory, and disk usage.
+- Write scripts to automate daily tasks.
+
+**Learning Resource:** https://linuxjourney.com/
+
+### 2. Networking Fundamentals 🌐
+
+**Topics to Learn:**
+- OSI and TCP/IP models
+- IP addresses and subnetting
 - DNS
-- TCP/IP
+- DHCP
 - HTTP and HTTPS
-- Ports and firewalls
+- TCP and UDP
+- Ports and protocols
+- Firewalls
 - SSH
-- Load balancers
-Practice project: Write a Bash script that checks CPU usage, memory usage, disk space, and server status.
-Phase 2: Git and GitHub
-Learn how developers collaborate and manage code.
+- Load balancing
+- Reverse proxies
 
-Important commands:
-git init
-git clone
-git add .
-git commit -m "Initial commit"
-git push
-git pull
-git branch
-git merge
+**Practice Tasks:**
+- Check network connectivity.
+- Investigate DNS resolution.
+- Test open ports.
+- Connect to remote Linux servers using SSH.
 
-Learn branches, pull requests, merge conflicts, and repository management.
+### 3. Git and GitHub 🔧
 
-Practice project: Create a GitHub repository for your Linux scripts and document each script.
-Phase 3: Cloud Computing — AWS
-Choose one cloud platform first. I recommend starting with Amazon Web Services (AWS).
+**Topics to Learn:**
+- Version control fundamentals
+- Git installation and configuration
+- Creating repositories
+- Staging and committing changes
+- Branching and merging
+- Resolving merge conflicts
+- Pull requests
+- `.gitignore`
+- README documentation
 
-Learn these services:
-AWS service	Purpose
-EC2	Virtual servers
-IAM	Access and permissions
-S3	Object storage
-VPC	Cloud networking
-ELB	Load balancing
-Auto Scaling	Automatically adjust server capacity
-RDS	Managed relational databases
-CloudWatch	Monitoring and logs
+**Tools:** Git, GitHub
 
+**Practice Tasks:**
+- Create a GitHub repository.
+- Push Linux scripts to GitHub.
+- Create branches and merge changes.
+- Practice resolving merge conflicts.
 
-Start with EC2, IAM, S3, and VPC before moving to more advanced services.
+**Learning Resource:** https://git-scm.com/book/en/v2
 
-Official resource: AWS Skill Builder
+### 4. Scripting and Automation 💻
 
-Practice project: Deploy a simple website on an EC2 instance and configure secure access.
-Phase 4: Docker
-Docker helps you package applications and their dependencies into containers.
+**Topics to Learn:**
+- Bash scripting fundamentals
+- Variables and data types
+- Conditional statements
+- Loops
+- Functions
+- Exit codes
+- Error handling
+- Scheduling tasks with cron
+- Python fundamentals
+- Working with files and APIs
 
-Learn:
-- Images and containers
-- Dockerfiles
+**Tools:** Bash, Python
+
+**Practice Projects:**
+- Automated system health check script
+- Disk usage monitoring script
+- Log file analyzer
+- Automated backup script
+
+### 5. Cloud Computing — AWS ☁️
+
+**Topics to Learn:**
+- Cloud computing fundamentals
+- Regions and Availability Zones
+- IAM users, roles, and policies
+- EC2 virtual servers
+- S3 object storage
+- VPC and subnets
+- Security groups
+- Route tables
+- Elastic Load Balancing
+- Auto Scaling
+- RDS databases
+- CloudWatch monitoring
+
+**Tools:** Amazon Web Services (AWS)
+
+**Practice Projects:**
+- Launch and configure an EC2 instance.
+- Host a static website using S3.
+- Configure a VPC and subnets.
+- Deploy a web application to AWS.
+- Configure basic monitoring and alerts.
+
+**Learning Resource:** https://skillbuilder.aws/
+
+### 6. Docker and Containerization 🐳
+
+**Topics to Learn:**
+- Containers and virtual machines
+- Docker architecture
+- Docker images and containers
+- Dockerfile
 - Docker commands
-- Volumes and networks
+- Docker volumes
+- Docker networks
 - Docker Hub
 - Docker Compose
 - Container troubleshooting
-Official resource: Docker Get Started
+- Container image security
 
-Practice project: Build a Docker image for a simple web application and run it locally.
-Phase 5: CI/CD
-CI/CD automates application testing, building, and deployment.
+**Tools:** Docker, Docker Compose
 
-Learn one tool first:
-- GitHub Actions
-- Jenkins
-Understand this workflow:
+**Practice Projects:**
+- Create a Dockerfile for a web application.
+- Build and run a Docker image.
+- Publish an image to a container registry.
+- Run a multi-container application using Docker Compose.
 
-Developer pushes code → Automated tests → Build Docker image → Push image to registry → Deploy application
+**Learning Resource:** https://docs.docker.com/get-started/
 
-Official resources:
-- GitHub Actions Documentation
-- Jenkins Documentation
-Practice project: Build a pipeline that automatically tests your application and builds a Docker image whenever code is pushed to GitHub.
-Phase 6: Terraform and Ansible
-These tools help automate infrastructure and server configuration.
+### 7. CI/CD Pipelines 🔄
 
-Terraform: Learn providers, resources, variables, modules, state, and infrastructure provisioning.
+**Topics to Learn:**
+- Continuous Integration
+- Continuous Delivery
+- Continuous Deployment
+- Pipeline stages
+- Automated testing
+- Build automation
+- Artifact management
+- Deployment strategies
+- Pipeline secrets
+- Pipeline troubleshooting
 
-Ansible: Learn inventories, playbooks, variables, roles, and server configuration.
+**Tools:** GitHub Actions, Jenkins
 
-Official resources:
-- Terraform Tutorials
-- Ansible Documentation
-Practice project: Use Terraform to create cloud infrastructure and Ansible to configure a Linux server.
-Phase 7: Kubernetes
-Learn Kubernetes after you understand Docker and basic cloud networking.
+**Practice Projects:**
+- Create a GitHub Actions workflow.
+- Automate application testing.
+- Build a Docker image automatically.
+- Publish an image to a container registry.
+- Deploy an application through a CI/CD pipeline.
 
-Focus on:
+**Learning Resources:**
+- https://docs.github.com/en/actions
+- https://www.jenkins.io/doc/
+
+### 8. Infrastructure as Code — Terraform 🏗️
+
+**Topics to Learn:**
+- Infrastructure as Code concepts
+- Terraform installation
+- Providers and resources
+- Variables and outputs
+- Data sources
+- Terraform state
+- Modules
+- Remote state
+- State locking
+- Environment management
+- Infrastructure planning and deployment
+
+**Tools:** Terraform, AWS
+
+**Practice Projects:**
+- Create an EC2 instance using Terraform.
+- Configure AWS networking using Terraform.
+- Create reusable Terraform modules.
+- Manage infrastructure changes safely.
+- Destroy test infrastructure when it is no longer needed.
+
+**Learning Resource:** https://developer.hashicorp.com/terraform/tutorials
+
+### 9. Configuration Management — Ansible ⚙️
+
+**Topics to Learn:**
+- Configuration management fundamentals
+- Ansible installation
+- Inventories
+- Ad hoc commands
+- Playbooks
+- Variables and facts
+- Templates
+- Handlers
+- Roles
+- Ansible Vault
+
+**Tools:** Ansible
+
+**Practice Projects:**
+- Install packages automatically.
+- Configure Linux servers.
+- Deploy a web server using Ansible.
+- Automate application configuration.
+- Store sensitive variables securely.
+
+**Learning Resource:** https://docs.ansible.com/
+
+### 10. Kubernetes and Container Orchestration ☸️
+
+**Topics to Learn:**
 - Kubernetes architecture
-- Pods and Deployments
+- Control plane and worker nodes
+- Pods
+- Deployments
+- ReplicaSets
 - Services
 - Namespaces
-- ConfigMaps and Secrets
-- Persistent storage
+- ConfigMaps
+- Secrets
+- Persistent Volumes
 - Ingress
+- Resource requests and limits
+- Health probes
 - Helm
 - Scaling and troubleshooting
-Official resource: Kubernetes Tutorials
 
-Practice project: Deploy a containerized application to a local Kubernetes cluster, expose it through a Service, and configure replicas.
-Phase 8: Monitoring and DevSecOps
-A DevOps engineer must understand what happens after deployment.
+**Tools:** Kubernetes, kubectl, Helm, Minikube
 
-Learn:
-- Prometheus for metrics
-- Grafana for dashboards
+**Practice Projects:**
+- Create a local Kubernetes cluster.
+- Deploy a containerized application.
+- Expose an application using a Service.
+- Configure application replicas.
+- Deploy applications using Helm.
+- Troubleshoot failed Pods and Deployments.
+
+**Learning Resource:** https://kubernetes.io/docs/tutorials/
+
+### 11. Monitoring and Logging 📊
+
+**Topics to Learn:**
+- Infrastructure monitoring
+- Application monitoring
+- Metrics and logs
+- Dashboards
+- Alerting
+- CPU and memory monitoring
+- Application health checks
+- Incident investigation
 - Centralized logging
-- Alerts and incident troubleshooting
+
+**Tools:** Prometheus, Grafana
+
+**Practice Projects:**
+- Configure Prometheus to collect metrics.
+- Create Grafana dashboards.
+- Monitor infrastructure health.
+- Configure alerts for resource usage.
+- Investigate application errors using logs.
+
+**Learning Resources:**
+- https://prometheus.io/docs/
+- https://grafana.com/docs/
+
+### 12. DevSecOps and Security 🔐
+
+**Topics to Learn:**
 - IAM and least-privilege access
 - Secrets management
+- SSH security
+- Network security
 - Container image scanning
+- Dependency vulnerability scanning
+- Secure CI/CD pipelines
+- Infrastructure security
+- Audit logging
 - Backup and recovery
-Official resources:
-- Prometheus Documentation
-- Grafana Documentation
-3. Six-Month DevOps Study Plan
-Here is a practical schedule if you can study for approximately 2–3 hours per day.
-Month	Main focus	Expected outcome
-Month 1	Linux, networking, Git	Manage Linux systems and use Git confidently
-Month 2	Bash, Python basics, AWS	Automate simple tasks and deploy a basic cloud application
-Month 3	Docker, CI/CD	Containerize an application and automate its build
-Month 4	Terraform, Ansible	Provision and configure infrastructure using code
-Month 5	Kubernetes, Helm	Deploy and troubleshoot containerized applications
-Month 6	Monitoring, security, projects, interviews	Build an end-to-end portfolio and prepare for interviews
 
+**Tools:** Trivy, AWS IAM, GitHub security features
 
-The sequence is a guide, not a deadline. Spend more time on Linux, networking, or scripting if those fundamentals are still difficult.
-4. Three Projects to Put on Your Resume
-Don't just complete tutorials. Build projects that demonstrate how the tools work together.
+**Practice Tasks:**
+- Scan Docker images for vulnerabilities.
+- Remove secrets from source code.
+- Secure CI/CD pipeline credentials.
+- Review cloud permissions.
+- Implement basic security checks in pipelines.
 
-Project 1: Automated CI/CD Pipeline
-- Store application code on GitHub.
-- Use GitHub Actions to run tests.
+---
+
+## 🛠️ Recommended Learning Schedule
+
+| Month | Learning Focus |
+|---|---|
+| Month 1 | Linux, Networking, Git |
+| Month 2 | Bash, Python Basics, AWS Fundamentals |
+| Month 3 | Docker, CI/CD, GitHub Actions |
+| Month 4 | Terraform, Ansible |
+| Month 5 | Kubernetes, Helm |
+| Month 6 | Monitoring, Security, Projects, Interview Preparation |
+
+*This is an estimated schedule. The actual time required depends on your experience and daily study hours.*
+
+---
+
+## 🚀 Hands-On DevOps Projects
+
+### Project 1: Linux System Monitoring
+
+**Objective:** Automate basic Linux system health checks.
+
+**Technologies:** Linux, Bash, Git
+
+**Tasks:**
+- Monitor CPU utilization.
+- Check memory usage.
+- Check disk space.
+- Record system information.
+- Generate a report.
+- Schedule the script using cron.
+
+### Project 2: Dockerized Web Application
+
+**Objective:** Package an application into a Docker container.
+
+**Technologies:** Docker, Docker Compose, GitHub
+
+**Tasks:**
+- Create a sample web application.
+- Write a Dockerfile.
+- Build a Docker image.
+- Run the application in a container.
+- Configure persistent storage if required.
+- Document the deployment process.
+
+### Project 3: Automated CI/CD Pipeline
+
+**Objective:** Automate application testing and container image creation.
+
+**Technologies:** GitHub Actions, Docker, GitHub
+
+**Tasks:**
+- Store application code in GitHub.
+- Configure automated tests.
 - Build a Docker image.
 - Publish the image to a container registry.
-- Deploy the application to a test environment.
-Project 2: AWS Infrastructure Automation
-- Create cloud infrastructure using Terraform.
-- Configure access permissions with IAM.
-- Deploy an application to AWS.
-- Configure monitoring and alerts.
-- Document the architecture and cleanup procedure.
-Project 3: Kubernetes Deployment and Monitoring
-- Deploy a containerized application to Kubernetes.
-- Configure Services and replicas.
-- Manage configuration and secrets securely.
-- Set up Prometheus and Grafana.
-- Document troubleshooting steps and recovery procedures.
-For every project, publish a README, architecture diagram, setup instructions, screenshots where useful, and a description of the problems you solved.
-5. Free DevOps Learning Resources
-Resource	Best for	Link
-Linux Journey	Linux fundamentals	Linux Journey
-Pro Git	Git and version control	Pro Git Book
-AWS Skill Builder	Cloud fundamentals	AWS Skill Builder
-Docker Docs	Containers	Docker Documentation
-HashiCorp Developer	Terraform	Terraform Tutorials
-Kubernetes Docs	Container orchestration	Kubernetes Tutorials
-Roadmap reference	Complete learning path	DevOps Roadmap 2026 on GitHub
+- Configure deployment to a test environment.
+- Document pipeline execution and troubleshooting.
+
+### Project 4: AWS Infrastructure Using Terraform
+
+**Objective:** Provision cloud infrastructure using code.
+
+**Technologies:** AWS, Terraform, Git
+
+**Tasks:**
+- Configure AWS authentication securely.
+- Create networking resources.
+- Provision a test EC2 instance.
+- Configure security groups.
+- Manage infrastructure using Terraform.
+- Document how to create and destroy the environment.
+
+### Project 5: Kubernetes Application Deployment
+
+**Objective:** Deploy and manage a containerized application.
+
+**Technologies:** Docker, Kubernetes, kubectl, Helm
+
+**Tasks:**
+- Build or obtain a container image.
+- Create Kubernetes Deployments.
+- Configure Services.
+- Set up health probes and resource limits.
+- Scale application replicas.
+- Troubleshoot common deployment failures.
+
+### Project 6: DevOps Monitoring Dashboard
+
+**Objective:** Monitor application and infrastructure health.
+
+**Technologies:** Prometheus, Grafana, Docker
+
+**Tasks:**
+- Configure metric collection.
+- Build monitoring dashboards.
+- Monitor resource usage.
+- Configure alerts.
+- Document troubleshooting procedures.
+
+---
+
+## 📚 Important DevOps Tools to Learn
+
+| Category | Tools |
+|---|---|
+| Operating System | Linux, Ubuntu |
+| Version Control | Git, GitHub |
+| Scripting | Bash, Python |
+| Cloud | AWS |
+| CI/CD | GitHub Actions, Jenkins |
+| Containers | Docker, Docker Compose |
+| Infrastructure as Code | Terraform |
+| Configuration Management | Ansible |
+| Container Orchestration | Kubernetes |
+| Package Management | Helm |
+| Monitoring | Prometheus, Grafana |
+| Security | Trivy, AWS IAM |
+| Web Servers | Nginx |
+
+**Tip:** Learn one tool well in each category before adding alternatives to your learning plan.
+
+---
+
+## 🎯 DevOps Interview Preparation
+
+Prepare for questions about:
+
+- Linux commands and troubleshooting
+- File permissions and processes
+- Networking and DNS
+- Git branching and merge conflicts
+- Bash scripting
+- AWS EC2, IAM, S3, and VPC
+- Docker images, containers, and volumes
+- CI/CD pipeline design
+- Terraform state and modules
+- Ansible playbooks and roles
+- Kubernetes Pods, Deployments, and Services
+- Prometheus metrics and Grafana dashboards
+- Cloud security and secrets management
+- Troubleshooting real-world deployment failures
+
+Practice explaining not only what each tool does but also why you used it and how you would troubleshoot a failure.
+
+---
+
+## 📈 Learning Progress Tracker
+
+Track your progress by changing `[ ]` to `[x]` as you complete each section.
+
+- [ ] Linux Fundamentals
+- [ ] Networking Fundamentals
+- [ ] Git and GitHub
+- [ ] Bash Scripting
+- [ ] Python Basics
+- [ ] AWS Fundamentals
+- [ ] Docker
+- [ ] CI/CD with GitHub Actions
+- [ ] Jenkins Basics
+- [ ] Terraform
+- [ ] Ansible
+- [ ] Kubernetes
+- [ ] Helm
+- [ ] Prometheus
+- [ ] Grafana
+- [ ] DevSecOps Fundamentals
+- [ ] Complete at least 3 Hands-On Projects
+- [ ] Prepare for DevOps Interviews
+
+---
+
+## 🌟 My Learning Goals
+
+- Build strong DevOps fundamentals.
+- Practice regularly through hands-on exercises.
+- Document my learning in GitHub.
+- Develop practical automation skills.
+- Build real-world projects.
+- Improve troubleshooting and problem-solving skills.
+- Prepare for a DevOps Engineer role.
+
+## 🤝 Contributions and Feedback
+
+Suggestions, corrections, and learning resources are welcome. Feel free to open an issue or submit a pull request to improve this repository.
+
+## 📌 Conclusion
+
+DevOps is a continuous learning journey. My focus is on understanding the fundamentals, practicing with industry-relevant tools, and building projects that demonstrate practical skills.
+
+**Learn → Practice → Build → Document → Improve**
+
+⭐ If you find this roadmap useful, consider starring the repository!
