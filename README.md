@@ -1,10 +1,14 @@
-# Complete-DevOps-Bootcamp
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/478ea157-e769-43fd-9920-125b81322cd6" /># Complete-DevOps-Bootcamp
 DevOps Roadmap
+
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/166bba6e-20dd-4385-85d1-4618cfd04590" />
+
 
 <img width="800" height="891" alt="image" src="https://github.com/user-attachments/assets/d3c20cd1-ef06-4fe2-b30b-f91fec67d31f" />
 
 
 # 🚀 DevOps Engineer Roadmap 2026
+
 
 A complete, step-by-step roadmap to learn DevOps from beginner to job-ready level with practical projects, hands-on exercises, and free learning resources.
 
@@ -502,3 +506,18 @@ DevOps is a continuous learning journey. My focus is on understanding the fundam
 **Learn → Practice → Build → Document → Improve**
 
 ⭐ If you find this roadmap useful, consider starring the repository!
+
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/e2926667-cfbd-453f-99d4-77a270176c95" />
+
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/43bb461f-79b9-442a-b92b-75c84522a331" />
+
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/7bc117b9-7279-4430-ae21-3f9fa970a37b" />
+
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/74dcb5f0-b14f-402d-816b-b6e0cd873646" />
+
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/7d08fc68-e7ee-4cb5-8450-b722179e1fda" />
+
+
+
+
+
