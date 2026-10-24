@@ -1,4 +1,4 @@
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/478ea157-e769-43fd-9920-125b81322cd6" /># Complete-DevOps-Bootcamp
+
 DevOps Roadmap
 
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/166bba6e-20dd-4385-85d1-4618cfd04590" />
