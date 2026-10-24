@@ -507,6 +507,15 @@ DevOps is a continuous learning journey. My focus is on understanding the fundam
 
 ⭐ If you find this roadmap useful, consider starring the repository!
 
+DevOps 
+======================
+DevOps is a practice that combines development and operations to build, test and release software faster and more reliably. It focuses on automation, collaboration and continuous delivery to improve software quality and speed.
+
+Helps teams release software faster with automation
+Reduces manual errors and improves reliability
+Enables continuous integration and deployment
+Improves collaboration between development and operations teams
+
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/e2926667-cfbd-453f-99d4-77a270176c95" />
 
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/43bb461f-79b9-442a-b92b-75c84522a331" />
